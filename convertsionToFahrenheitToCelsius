@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+    
+    int faherenheit ;
+    cout << "Enter the value of the fahrenheit " ;
+    cin >> faherenheit;
+    
+    double celsius = ( faherenheit - 32) *1.8;
+    cout <<" the value of celsius to corresponding faherenheit is " << celsius << " degree celsius " ;
+}
